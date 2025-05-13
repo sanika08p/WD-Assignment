@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image tag</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #dceef2, #c2e9fb);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4da6ff;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+        .image-card {
+            display: inline-block;
+            margin: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            overflow: hidden;
+            width: 300px;
+        }
+        .image-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .image-card p {
+            padding: 15px;
+            font-size: 1.1em;
+            margin: 0;
+            background-color: #f0f9ff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4da6ff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐶 Beautiful Animals 🐱</h1>
+    </header>
+
+    <div class="content">
+        <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1598133908911-64159a6d2236?auto=format&fit=crop&w=800&q=80" alt="Cute Puppy">
+            <p>Cute Puppy enjoying the outdoors</p>
+        </div>
+
+        <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?auto=format&fit=crop&w=800&q=80" alt="Adorable Kitten">
+            <p>Adorable Kitten looking curious</p>
+        </div>
+
+        <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1601758123927-1961ee9f7486?auto=format&fit=crop&w=800&q=80" alt="Colorful Bird">
+            <p>Colorful Parrot in the wild</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Animal World | All images from Unsplash
+    </footer>
+</body>
+</html>
